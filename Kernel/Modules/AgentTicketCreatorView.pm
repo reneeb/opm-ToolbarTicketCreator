@@ -449,7 +449,7 @@ sub Run {
         OriginalTicketIDs => \@OriginalViewableTickets,
         GetColumnFilter   => \%GetColumnFilter,
         LastColumnFilter  => $LastColumnFilter,
-        Action            => 'AgentTicketOwnerView',
+        Action            => 'AgentTicketCreatorView',
         Total             => scalar @ViewableTickets,
         RequestedURL      => $Self->{RequestedURL},
 
@@ -459,7 +459,7 @@ sub Run {
         Filters    => \%NavBarFilter,
         FilterLink => $LinkFilter,
 
-        TitleName  => Translatable('My Owner Tickets'),
+        TitleName  => Translatable('My Created Tickets'),
         TitleValue => $Filters{$Filter}->{Name},
         Bulk       => 1,
 
