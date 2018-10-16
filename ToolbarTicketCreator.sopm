@@ -2,7 +2,7 @@
 <otrs_package version="1.0">
     <!-- GENERATED WITH OTRS::OPM::Maker::Command::sopm (1.4) -->
     <Name>ToolbarTicketCreator</Name>
-    <Version>6.0.1</Version>
+    <Version>6.0.2</Version>
     <Framework>6.0.x</Framework>
     <Vendor>Perl-Services.de</Vendor>
     <URL>http://www.perl-services.de</URL>
@@ -11,6 +11,7 @@
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
     <Filelist>
         <File Permission="644" Location="Kernel/Config/Files/XML/ToolbarTicketCreator.xml" />
+        <File Permission="644" Location="Kernel/Language/de_ToolbarTicketCreator.pm" />
         <File Permission="644" Location="Kernel/Modules/AgentTicketCreatorView.pm" />
         <File Permission="644" Location="Kernel/Output/HTML/ToolBar/TicketCreator.pm" />
         <File Permission="644" Location="doc/ToolbarTicketCreator.json" />
