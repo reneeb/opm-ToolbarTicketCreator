@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <otrs_package version="1.0">
-    <!-- GENERATED WITH OTRS::OPM::Maker::Command::sopm (1.4) -->
+    <!-- GENERATED WITH OPM::Maker::Command::sopm (1.1.0) -->
     <Name>ToolbarTicketCreator</Name>
-    <Version>6.0.2</Version>
+    <Version>6.0.3</Version>
     <Framework>6.0.x</Framework>
+    <Framework>6.1.x</Framework>
+    <Framework>6.2.x</Framework>
+    <Framework>6.3.x</Framework>
+    <Framework>6.4.x</Framework>
     <Vendor>Perl-Services.de</Vendor>
-    <URL>http://www.perl-services.de</URL>
+    <URL>https://www.perl-services.de</URL>
     <Description Lang="de">Neues Toolbar-Module für eine Ticketübersicht, bei denen der Agent Ticketersteller ist</Description>
     <Description Lang="en">New toolbar module to link ticket overview where the agent is the ticket creator</Description>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
